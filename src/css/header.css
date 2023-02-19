@@ -1,0 +1,30 @@
+.header {
+    margin-top: 1.85rem;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu-logo {
+    height: 5rem;
+    width: 5rem;
+}
+
+.header__menu-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: .9rem;
+}
+
+.header__menu-email {
+    font-size: 1.2rem;
+    font-weight: 400;
+}

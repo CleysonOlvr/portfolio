@@ -1,0 +1,10 @@
+* {
+    background-color: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 62.5%;
+}
+
+.container {
+    margin: 0 1.6rem;
+    width: 90vw;
+}
