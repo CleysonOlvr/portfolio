@@ -27,7 +27,7 @@
 .info__description-socialMedias {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 1.6rem;
+    margin: 1.6rem 0;
 }
 
 .info__description-socialMedia {
