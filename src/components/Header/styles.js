@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const MenuHeader = styled.div`
-
   .header-container {
     height: 5rem;
     display: flex;
@@ -29,6 +28,7 @@ export const MenuHeader = styled.div`
 
   .header-nav-item {
     list-style: none;
+    position: relative;
   }
 
   .header-nav-item a {
@@ -37,4 +37,23 @@ export const MenuHeader = styled.div`
     font-size: 1rem;
     font-weight: 400;
   }
-`
+
+  .header-nav-item a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #55646b;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .header-nav-item a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+`;
