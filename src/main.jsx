@@ -1,12 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Header from './components/Header'
-import GlobalStyles from './styles/globalStyles'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Header from "./components/Header";
+import GlobalStyles from "./styles/globalStyles";
+import "./styles";
+import { MainContent } from "./styles";
 
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <GlobalStyles />
+    <MainContent>
       <Header />
-  </React.StrictMode>,
-)
+    </MainContent>
+  </React.StrictMode>
+);
