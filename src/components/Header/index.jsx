@@ -16,16 +16,16 @@ export default function Header() {
         <div>
           <nav className="header-nav">
             <ul className="header-nav-items">
-              <li className="header-nav-item">
+              <li className="header-nav-item highlight">
                 <a href="/">Home</a>
               </li>
-              <li className="header-nav-item">
+              <li className="header-nav-item highlight">
                 <a href="/">About</a>
               </li>
-              <li className="header-nav-item">
+              <li className="header-nav-item highlight">
                 <a href="/">Skills</a>
               </li>
-              <li className="header-nav-item">
+              <li className="header-nav-item header-nav-button">
                 <a href="/">Contact Me</a>
               </li>
             </ul>

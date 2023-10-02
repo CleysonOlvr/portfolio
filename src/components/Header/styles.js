@@ -24,6 +24,8 @@ export const MenuHeader = styled.div`
   .header-nav-items {
     display: flex;
     gap: 5rem;
+
+    align-items: center;
   }
 
   .header-nav-item {
@@ -38,13 +40,29 @@ export const MenuHeader = styled.div`
     font-weight: 400;
   }
 
-  .header-nav-item a::before {
+  .header-nav-button {
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+  }
+
+  .header-nav-button:hover {
+    background-color: #f0f0f0;
+
+    a {
+      color: #2b1b1b;
+    }
+
+    transition: all 0.3s ease-in-out;
+  }
+
+  .highlight a::before {
     content: "";
     position: absolute;
     width: 100%;
     height: 4px;
     border-radius: 4px;
-    background-color: #55646b;
+    background-color: #602c75;
     bottom: 0;
     left: 0;
     transform-origin: right;
