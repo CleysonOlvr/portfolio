@@ -26,7 +26,7 @@ export default function Header() {
                 <a href="/">Skills</a>
               </li>
               <li className="header-nav-item header-nav-button">
-                <a href="/">Contact Me</a>
+                <a href="/">My Resume</a>
               </li>
             </ul>
           </nav>

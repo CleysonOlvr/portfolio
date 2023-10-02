@@ -7,6 +7,7 @@ export const MenuHeader = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5rem 0 5rem;
+    position: relative;
   }
 
   .header-icon {
