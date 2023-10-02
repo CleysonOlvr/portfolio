@@ -14,6 +14,21 @@ export default function Profile() {
           <h1 className="main-profile-name">Cleyson Oliveira</h1>
           <p className="main-profile-title">Software Engineer</p>
         </div>
+
+        <div className="main-profile-socials">
+          <a href="https://www.linkedin.com/in/cleysonoliveira/" target="_blank" rel="noreferrer">
+            <img src="/src/assets/linkedin.png" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/CleysonOlvr" target="_blank" rel="noreferrer">
+            <img src="/src/assets/github.png"  alt="Github" />
+          </a>
+          <a href="https://www.instagram.com/cleyson.dev/" target="_blank" rel="noreferrer">
+            <img src="/src/assets/instagram.png" alt="Instagram" />
+          </a>
+          <a href="/">
+            <img src="/src/assets/email.png" alt="E-mail" />
+          </a>
+        </div>
       </section>
     </ProfileContainer>
   );

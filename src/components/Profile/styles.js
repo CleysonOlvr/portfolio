@@ -38,6 +38,12 @@ export const ProfileContainer = styled.section`
 
   .main-profile-title {
     color: #f0f0f0;
-    font-size: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .main-profile-socials {
+    display: flex;
+    gap: 15px;
+    margin-top: 1rem;
   }
 `
