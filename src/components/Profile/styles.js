@@ -38,7 +38,8 @@ export const ProfileContainer = styled.section`
 
   .main-profile-title {
     color: #f0f0f0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
   }
 
   .main-profile-socials {
@@ -46,4 +47,57 @@ export const ProfileContainer = styled.section`
     gap: 15px;
     margin-top: 1rem;
   }
+
+  .main-profile-socialMedia:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+    transition: all .3s ease-in-out;
+  }
+
+  .main-profile-scrollAnimation {
+    position: relative;
+  }
+
+  .arrow {
+    position: absolute;
+    padding-top: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(0deg);
+    cursor: pointer;
+}
+
+.arrow span {
+    display: block;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
 `

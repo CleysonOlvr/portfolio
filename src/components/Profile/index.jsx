@@ -16,18 +16,41 @@ export default function Profile() {
         </div>
 
         <div className="main-profile-socials">
-          <a href="https://www.linkedin.com/in/cleysonoliveira/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/cleysonoliveira/"
+            target="_blank"
+            rel="noreferrer"
+            className="main-profile-socialMedia"
+          >
             <img src="/src/assets/linkedin.png" alt="LinkedIn" />
           </a>
-          <a href="https://github.com/CleysonOlvr" target="_blank" rel="noreferrer">
-            <img src="/src/assets/github.png"  alt="Github" />
+          <a
+            href="https://github.com/CleysonOlvr"
+            target="_blank"
+            rel="noreferrer"
+            className="main-profile-socialMedia"
+          >
+            <img src="/src/assets/github.png" alt="Github" />
           </a>
-          <a href="https://www.instagram.com/cleyson.dev/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/cleyson.dev/"
+            target="_blank"
+            rel="noreferrer"
+            className="main-profile-socialMedia"
+          >
             <img src="/src/assets/instagram.png" alt="Instagram" />
           </a>
-          <a href="/">
+          <a href="/" className="main-profile-socialMedia">
             <img src="/src/assets/email.png" alt="E-mail" />
           </a>
+        </div>
+
+        <div className="main-profile-scrollAnimation">
+          <div className="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </section>
     </ProfileContainer>
